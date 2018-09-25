@@ -2,8 +2,8 @@ $(document).ready(function() {
   // Scroll Event
   $(window).on("scroll", function() {
     /* Display Scrol to Top Button */
-    if(!$(".scroll-top1").hasClass('fixed')){
-        scrollTopBtnAppear();
+    if (!$(".scroll-top1").hasClass("fixed")) {
+      scrollTopBtnAppear();
     }
 
     /* Sticky Navigation Menu */
@@ -79,14 +79,34 @@ $(document).ready(function() {
   );
   // search block
   $(".search-block-toogle").on("click", function() {
-    let left = "-80px";
+    const search = $(".header__search-box");
+    // check toggle block
+    if (search.hasClass("searchOpen")) {
+      // close search block
+      search.toggleClass("searchOpen");
+      $(".header__search-box").animate(
+        {
+          opacity: 0,
+          left: "0px"
+        },
+        600,
+        () => search.removeClass("searchOpen")
+      );
+    } else {
+      let left = "-80px";
+      const width = $(window).width();
+      console.log(width, "width");
 
-    
-    $(".header__search-box").css({ display: "block" });
-    $(".header__search-box").animate({
-      opacity: 1,
-      left: left
-    });
+      if (1200 > width) left = "-140px";
+      if (992 > width) left = "-220px";
+      console.log(left, 'left');
+      
+      search.addClass("searchOpen");
+      $(".header__search-box").animate({
+        opacity: 1,
+        left: left
+      });
+    }
   });
 
   // banner arrow move
