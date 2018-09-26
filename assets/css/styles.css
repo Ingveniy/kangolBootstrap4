@@ -1177,136 +1177,8 @@ footer .copyright .copyright__link:hover {
   text-decoration: none;
 }
 
-/* popup*/
-/* line 980, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
-.m-auth__link {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  -webkit-transition: opacity 200ms ease;
-  transition: opacity 200ms ease;
-  color: #525252;
-}
-
-/* line 988, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
-.m-auth__link:hover {
-  color: #000;
-  text-decoration: none;
-}
-
-/* line 993, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
-.m-auth__link.m-auth__link_with-button {
-  margin-left: 24px;
-}
-
-/* line 997, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
-.m-auth__header {
-  margin-bottom: 16px;
-  padding-top: 4px;
-  padding-bottom: 16px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-/* line 1006, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
-.m-register {
-  margin-top: 16px;
-  margin-bottom: 16px;
-}
-
-/* line 1011, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
-.m-auth__create-account {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  color: #525252;
-}
-
-/* line 1023, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
-.m-modal {
-  display: none;
-}
-
-/* line 1027, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
-.form__label {
-  color: #525252;
-  font-size: 0.625rem;
-  font-weight: 600;
-  letter-spacing: 0.2px;
-  text-transform: uppercase;
-}
-
-/* line 1035, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
-.m-forgot {
-  margin-top: 16px;
-  margin-bottom: 16px;
-}
-
-/* line 1040, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
-.m-auth {
-  margin-top: 16px;
-  margin-bottom: 16px;
-}
-
-/* line 1045, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
-.popup__close {
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  width: 64px;
-  height: 56px;
-  background-image: url("../../images/icon-close.svg");
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  cursor: pointer;
-}
-
-/* line 1057, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
-.popup-container {
-  width: 420px;
-  padding-right: 24px;
-  padding-bottom: 16px;
-  padding-left: 24px;
-}
-
-/* line 1064, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
-.popup {
-  position: fixed;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  z-index: 99;
-  display: none;
-  overflow: auto;
-  width: 100%;
-  height: 100%;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: rgba(34, 34, 34, 0.6);
-}
-
-/* line 1086, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
-.popup__inner {
-  position: relative;
-  z-index: 1002;
-  background-color: #fff;
-  box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.25);
-}
-
 /* mobile styles */
-/* line 1095, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+/* line 981, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
 .header-mobile .top-header_mobile {
   position: relative;
   display: -webkit-box;
@@ -1317,7 +1189,7 @@ footer .copyright .copyright__link:hover {
   justify-content: space-around;
 }
 
-/* line 1103, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+/* line 989, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
 .header-mobile .top-header_mobile .top-header__button_mobile {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1334,7 +1206,7 @@ footer .copyright .copyright__link:hover {
   align-items: center;
 }
 
-/* line 1119, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+/* line 1005, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
 .header-mobile .header-buttons {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1351,7 +1223,7 @@ footer .copyright .copyright__link:hover {
   justify-content: space-between;
 }
 
-/* line 1134, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+/* line 1020, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
 .header-mobile .button-2 {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
@@ -1372,14 +1244,14 @@ footer .copyright .copyright__link:hover {
   text-align: center;
 }
 
-/* line 1153, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+/* line 1039, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
 .header-mobile .button.button_mobile {
   padding: 12px 8px;
   -webkit-box-flex: 1;
   font-weight: 500;
 }
 
-/* line 1159, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+/* line 1045, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
 .footer_mobile {
   display: block;
   margin-top: 1.5rem;
@@ -1388,7 +1260,7 @@ footer .copyright .copyright__link:hover {
   background-color: #f7f7f7;
 }
 
-/* line 1165, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+/* line 1051, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
 .footer_mobile .footer-controls_mobile {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1402,7 +1274,7 @@ footer .copyright .copyright__link:hover {
   justify-content: space-between;
 }
 
-/* line 1177, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+/* line 1063, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
 .footer_mobile .button-2.button_mobile {
   padding: 12px 8px;
   -webkit-box-flex: 1;
@@ -1411,12 +1283,12 @@ footer .copyright .copyright__link:hover {
   flex: 1;
 }
 
-/* line 1184, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+/* line 1070, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
 .footer_mobile .button-2.button_mobile {
   font-weight: 500;
 }
 
-/* line 1187, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+/* line 1073, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
 .footer_mobile .button-2 {
   min-width: 64px;
   margin-top: 4px;
@@ -1433,7 +1305,7 @@ footer .copyright .copyright__link:hover {
   text-align: center;
 }
 
-/* line 1202, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+/* line 1088, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
 .footer_mobile .footer__social-container_mobile {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1447,7 +1319,7 @@ footer .copyright .copyright__link:hover {
   justify-content: center;
 }
 
-/* line 1214, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+/* line 1100, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
 .footer_mobile .footer__up-button {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1478,7 +1350,7 @@ footer .copyright .copyright__link:hover {
   text-transform: uppercase;
 }
 
-/* line 1243, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+/* line 1129, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
 .footer_mobile .footer__link_mobile {
   color: #7a7a7a;
   font-size: 0.75rem;
@@ -1492,19 +1364,19 @@ footer .copyright .copyright__link:hover {
   text-align: center;
 }
 
-/* line 1255, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+/* line 1141, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
 .footer_mobile .footer__links_mobile {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
 }
 
-/* line 1259, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+/* line 1145, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
 .footer_mobile .social-item__icon_mobile {
   width: 40px;
   height: 40px;
 }
 
-/* line 1264, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+/* line 1150, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
 .cart_mobile {
   position: fixed;
   left: 0px;
@@ -1516,7 +1388,7 @@ footer .copyright .copyright__link:hover {
   box-shadow: 0 1px 10px 0 rgba(0, 0, 0, 0.15);
 }
 
-/* line 1273, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+/* line 1159, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
 .cart_mobile .mobile-cart-content {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1534,7 +1406,8 @@ footer .copyright .copyright__link:hover {
   align-items: center;
 }
 
-/* line 1290, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+/* scroll button*/
+/* line 1178, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
 .scroll-top1 {
   height: 35px;
   width: 35px;
@@ -1554,44 +1427,207 @@ footer .copyright .copyright__link:hover {
   padding-top: 12px;
 }
 
-/* line 1308, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+/* line 1196, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
 .fixed {
   visibility: visible !important;
   opacity: 1 !important;
 }
 
+/* popup */
+/* line 1203, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+.m-auth__link {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  -webkit-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+  color: #525252;
+  text-decoration: underline;
+}
+
+/* line 1212, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+.m-auth__link:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 1217, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+.m-auth__link.m-auth__link_with-button {
+  margin-left: 24px;
+}
+
+/* line 1221, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+.m-auth__header {
+  margin-bottom: 16px;
+  padding-top: 4px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* line 1230, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+.m-register {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/* line 1235, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+.m-auth__create-account {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  color: #525252;
+}
+
+/* line 1247, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+.m-modal {
+  display: none;
+}
+
+/* line 1251, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+.form__label {
+  color: #525252;
+  font-size: 0.625rem;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  text-transform: uppercase;
+}
+
+/* line 1259, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+.m-forgot {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/* line 1264, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+.m-auth {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+/* line 1269, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+.popup__close {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 64px;
+  height: 56px;
+  background-image: url("../../images/icon-close.svg");
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+/* line 1281, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+.popup-container {
+  width: 420px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+}
+
+/* line 1288, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+.popup {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 99;
+  display: none;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(34, 34, 34, 0.6);
+}
+
+/* line 1309, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+.w-input,
+.w-select {
+  display: block;
+  width: 100%;
+  height: 38px;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #333333;
+  vertical-align: middle;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+}
+
+/* line 1323, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+.popup__inner {
+  padding-top: 1px;
+  position: relative;
+  z-index: 1002;
+  background-color: #fff;
+  box-shadow: 0 1px 16px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* line 1330, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+.button {
+  min-width: 64px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding: 8px 16px;
+  border: 1px solid #c4c4c4;
+  background-color: transparent;
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+  color: #000;
+  font-size: 0.875rem;
+  line-height: 120%;
+  font-weight: 500;
+  text-align: center;
+}
+
 @media screen and (max-width: 1199px) {
-  /* line 1314, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1347, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .slider__arrow-left {
     top: 160px;
   }
-  /* line 1317, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1350, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .slider__arrow-right {
     top: -200px;
   }
 }
 
 @media screen and (max-width: 991px) {
-  /* line 1322, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1355, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .triangle,
   .header-categories-btn,
   .hero__second-banner {
     display: none !important;
   }
-  /* line 1327, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1360, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .header-container .categories-nav .header-categories {
     margin-left: 0px !important;
   }
-  /* line 1330, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1363, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .post-card-container {
     padding: 0px;
     padding-right: 15px;
   }
-  /* line 1334, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1367, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .post-controls {
     font-size: 0.55rem;
   }
-  /* line 1337, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1370, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .posts
 .posts-container
 .post-card
@@ -1600,22 +1636,22 @@ footer .copyright .copyright__link:hover {
 .post-stats__item {
     margin-left: 0px;
   }
-  /* line 1345, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1378, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .first-banner__content {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
   }
-  /* line 1351, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1384, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .first-banner__image {
     margin-right: 0rem;
   }
-  /* line 1354, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1387, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .header-categories {
     margin-left: 0px;
   }
-  /* line 1357, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1390, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .mobile-cart__price-block {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1627,7 +1663,7 @@ footer .copyright .copyright__link:hover {
     -ms-flex-align: center;
     align-items: center;
   }
-  /* line 1368, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1401, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .mobile-cart__icon {
     padding-top: 6px;
     padding-bottom: 12px;
@@ -1636,14 +1672,14 @@ footer .copyright .copyright__link:hover {
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
   }
-  /* line 1376, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1409, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .mobile-cart__price {
     margin-left: 0.75rem;
     font-size: 1.25rem;
     line-height: 120%;
     font-weight: 600;
   }
-  /* line 1382, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1415, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .button-2 {
     min-width: 64px;
     margin-top: 4px;
@@ -1659,7 +1695,7 @@ footer .copyright .copyright__link:hover {
     font-weight: 500;
     text-align: center;
   }
-  /* line 1397, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1430, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .button-2.cart {
     padding-top: 16px;
     padding-bottom: 16px;
@@ -1670,18 +1706,60 @@ footer .copyright .copyright__link:hover {
 }
 
 @media screen and (max-width: 767px) {
-  /* line 1407, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1440, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  .h-stores-dropdown {
+    position: absolute;
+    left: 0px;
+    top: 44px;
+    right: 0px;
+    z-index: 8;
+    display: none;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 16px 12px;
+    background-color: #fff;
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.15);
+  }
+  /* line 1454, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  .m-stores {
+    margin-bottom: 0px;
+    padding-left: 0px;
+  }
+  /* line 1458, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  .m-stores__item-link {
+    display: block;
+    padding: 16px 12px;
+    color: #525252;
+    font-size: 0.625rem;
+    line-height: 100%;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  /* line 1468, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  .w-list-unstyled {
+    padding-left: 0;
+    list-style: none;
+  }
+  /* line 1472, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  .button:active {
+    border-color: #000;
+    background-color: #000;
+    color: #fff;
+  }
+  /* line 1477, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .first-banner__image {
     min-height: 300px;
     margin-left: 0rem;
   }
-  /* line 1411, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1481, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .post-card-container {
     padding: 0px;
     padding-left: 15px;
     padding-right: 15px;
   }
-  /* line 1416, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1486, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .first-banner__content {
     max-width: 100%;
     -webkit-box-orient: vertical;
@@ -1694,12 +1772,12 @@ footer .copyright .copyright__link:hover {
     -ms-flex-align: stretch;
     align-items: stretch;
   }
-  /* line 1428, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1498, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .header-categories-item {
     padding-right: 8px !important;
     padding-left: 8px !important;
   }
-  /* line 1432, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1502, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .hero__first-banner {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -1710,7 +1788,7 @@ footer .copyright .copyright__link:hover {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
   }
-  /* line 1442, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1512, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .button_middle {
     margin-right: 4px;
     margin-left: 4px;
@@ -1718,14 +1796,14 @@ footer .copyright .copyright__link:hover {
 }
 
 @media screen and (max-width: 576px) {
-  /* line 1448, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1518, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .header-container .categories-nav {
     height: auto;
   }
 }
 
 @media screen and (max-width: 479px) {
-  /* line 1453, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1523, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .mobile-cart-content {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
@@ -1734,16 +1812,16 @@ footer .copyright .copyright__link:hover {
     -ms-flex-line-pack: start;
     align-content: flex-start;
   }
-  /* line 1461, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1531, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .button_middle {
     margin-right: 4px;
     margin-left: 4px;
   }
-  /* line 1465, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1535, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .first-banner__image {
     min-height: 200px;
   }
-  /* line 1468, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1538, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .header-categories {
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
@@ -1752,7 +1830,7 @@ footer .copyright .copyright__link:hover {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
-  /* line 1476, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
+  /* line 1546, C:/www/kangol/templates/kangol2/assets/scss/styles.scss */
   .header-categories-item {
     padding-top: 12px;
     padding-bottom: 12px;

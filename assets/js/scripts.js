@@ -99,8 +99,8 @@ $(document).ready(function() {
 
       if (1200 > width) left = "-140px";
       if (992 > width) left = "-220px";
-      console.log(left, 'left');
-      
+      console.log(left, "left");
+
       search.addClass("searchOpen");
       $(".header__search-box").animate({
         opacity: 1,
@@ -135,6 +135,25 @@ $(document).ready(function() {
       });
     }
   );
+
+  // Modal login
+
+  $(".toAuth").on("click", () => {
+    $('.m-forgot').css({ display: "none" });
+    $('.m-register').css({ display: "none" });
+    $(".m-auth").css({ display: "block" });
+  });
+  $(".toRegister").on("click", () => {
+    $('.m-forgot').css({ display: "none" });
+    $('.m-register').css({ display: "block" });
+    $(".m-auth").css({ display: "none" });
+  });
+  $(".toForgot").on("click", () => {
+    $('.m-forgot').css({ display: "block" });
+    $('.m-register').css({ display: "none" });
+    $(".m-auth").css({ display: "none" });
+  });
+
 });
 
 function scrollTopBtnAppear() {

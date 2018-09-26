@@ -5,11 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="./assets/css/styles.css"/>
+  <link rel="stylesheet" href="./assets/css/styles.css" />
   <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
   <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
   <title>Kangol</title>
 </head>
+
 <body>
   <!-- HEADER START -->
   <div class="header-container container">
@@ -92,8 +93,14 @@
       <div class="col-12">
         <div class="header-buttons">
           <a href="#" class="button-2 button_mobile w-button">Каталог</a>
-          <a href="#" class="button-2 button_mobile button_middle w-button">Магазины</a>
+          <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="button-2 button_mobile button_middle w-button">Магазины</a>
           <a href="#" class="button-2 button_mobile w-button">Блог</a>
+          <div class="h-stores-dropdown dropdown-menu">
+            <ul class="m-stores w-list-unstyled">
+              <li class="m-stores__item"><a href="#" class="m-stores__item-link">Большая Новодмитровская, 36А</a></li>
+              <li class="m-stores__item"><a href="#" class="m-stores__item-link">Тверская, 9</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -773,23 +780,86 @@
   <!-- BODY END -->
   <!-- Modal login START-->
   <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content popup__content">
-
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+    <div class="modal-dialog" style="width: 420px;" role="document">
+      <div class="popup__inner modal-content">
+        <div class="popup__close" data-dismiss="modal" aria-label="Close"></div>
+        <div class="popup__content">
+          <div class="popup-container">
+            <div class="popup-body">
+              <!-- Login modal START -->
+              <article class="m-auth" style="display: block;">
+                <div class="m-auth__header">
+                  <div class="m-auth__head">Вход</div>
+                </div>
+                <div class="m-auth-form-container w-form">
+                  <div class="m-auth__create-account"><a href="#" class="m-auth__link toRegister">Создать аккаунт</a></div>
+                  <form id="wf-form-auth" name="wf-form-auth" data-name="auth" class="m-auth-form"><label for="email"
+                      class="form__label">Эл. почта:</label><input type="email" class="form__field w-input" maxlength="256"
+                      name="email" data-name="email" placeholder="Эл. почта" id="email" required=""><label for="pass"
+                      class="form__label">Пароль:</label><input type="password" class="form__field w-input" maxlength="256"
+                      name="pass" data-name="pass" placeholder="Пароль" id="pass" required=""><input type="submit"
+                      value="Войти" data-wait="Подождите..." class="button w-button"><a href="#" data-w-id="864022e3-bdf8-9f9c-2c4c-3895f959660a"
+                      class="m-auth__link m-auth__link_with-button toForgot">Забыли пароль?</a></form>
+                  <div style="display: none;" class="m-auth-form__success w-form-done">
+                    <div>Thank you! Your submission has been received!</div>
+                  </div>
+                  <div style="display: none;" class="m-auth-form_error w-form-fail">
+                    <div>Oops! Something went wrong while submitting the form.</div>
+                  </div>
+                </div>
+              </article>
+              <!-- Login modal END -->
+              <!-- Register modal START -->
+              <article class="m-register" style="display: none;">
+                <div class="m-auth__header">
+                  <div class="m-auth__head">Регистрация</div>
+                </div>
+                <div class="m-auth-form-container w-form">
+                  <form id="wf-form-register" name="wf-form-register" data-name="register" class="m-auth-form"><label
+                      for="email-5" class="form__label">Эл. почта:</label><input type="email" class="form__field w-input"
+                      maxlength="256" name="email-2" data-name="Email 2" placeholder="Эл. почта" id="email-2" required=""><label
+                      for="pass-7" class="form__label">придумайте Пароль:</label><input type="password" class="form__field w-input"
+                      maxlength="256" name="pass-7" data-name="Pass 7" placeholder="Пароль" id="pass-7" required=""><label
+                      for="pass-8" class="form__label">повторите пароль:</label><input type="password" class="form__field w-input"
+                      maxlength="256" name="pass2" data-name="pass2" placeholder="Пароль" id="pass-4" required=""><label
+                      for="first-name-2" class="form__label">Имя:</label><input type="text" class="form__field w-input"
+                      maxlength="256" name="first-name-2" data-name="First Name 2" placeholder="Ваше имя" id="first-name-2"
+                      required=""><input type="submit" value="Зарегистрироваться" data-wait="Подождите..." class="button w-button"><a
+                      href="#" class="m-auth__link m-auth__link_with-button toAuth">Войти</a></form>
+                  <div style="display: none;" class="m-auth-form__success w-form-done">
+                    <div>Thank you! Your submission has been received!</div>
+                  </div>
+                  <div style="display: none;" class="m-auth-form_error w-form-fail">
+                    <div>Oops! Something went wrong while submitting the form.</div>
+                  </div>
+                </div>
+              </article>
+              <!-- Register modal END -->
+              <!-- Forgot pass modal START -->
+              <article class="m-forgot" style="display: none;">
+                <div class="m-auth__header">
+                  <div class="m-auth__head">Восстановление пароля</div>
+                </div>
+                <div class="m-auth-form-container w-form">
+                  <form id="wf-form-forgot" name="wf-form-forgot" data-name="forgot" class="m-auth-form">
+                    <p class="m-auth__text">Пожалуйста, введите ваш адрес электронной почты, на который мы отправим
+                      ссылку для восстановления пароля.</p><label for="email-5" class="form__label">Эл. почта:</label><input
+                      type="email" class="form__field w-input" maxlength="256" name="email-3" data-name="Email 3"
+                      placeholder="Эл. почта" id="email-3" required=""><input type="submit" value="Восстановить"
+                      data-wait="Подождите..." class="button w-button"><a href="#" class="m-auth__link m-auth__link_with-button toAuth">Войти</a>
+                  </form>
+                  <div style="display: none;" class="m-auth-form__success w-form-done">
+                    <div>Thank you! Your submission has been received!</div>
+                  </div>
+                  <div class="m-auth-form_error w-form-fail">
+                    <div style="display: none;">Oops! Something went wrong while submitting the form.</div>
+                  </div>
+                </div>
+              </article>
+              <!-- Forgot pass modal End -->
+            </div>
+          </div>
         </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-
       </div>
     </div>
   </div>
@@ -886,9 +956,16 @@
       <div class="container">
         <div class="footer-controls_mobile">
           <a href="#" class="button-2 button_mobile ">Каталог</a>
-          <a href="#" class="button-2 button_mobile button_middle">Магазины</a>
+          <a href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="button-2 button_mobile button_middle w-button">Магазины</a>
           <a href="#" class="button-2 button_mobile ">Блог</a>
+          <div class="h-stores-dropdown dropdown-menu">
+              <ul class="m-stores w-list-unstyled">
+                <li class="m-stores__item"><a href="#" class="m-stores__item-link">Большая Новодмитровская, 36А</a></li>
+                <li class="m-stores__item"><a href="#" class="m-stores__item-link">Тверская, 9</a></li>
+              </ul>
+            </div>
         </div>
+        
         <div class="footer__links_mobile">
           <a href="#" class="footer__link_mobile">Как выбрать размер</a>
           <a href="#" class="footer__link_mobile">Полная версия</a>
